@@ -1,6 +1,8 @@
 import * as React from 'react'
 import styled, { StyledOptions, FilteringStyledOptions } from '@emotion/styled'
 
+import type { JSX } from "react";
+
 // This file uses the same Theme declaration from tests-base.tsx
 
 {

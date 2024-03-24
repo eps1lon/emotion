@@ -1,5 +1,7 @@
 import * as React from 'react'
 
+import type { JSX } from "react";
+
 /**
  * @desc Utility type for getting props type of React component.
  * It takes `defaultProps` into an account - making props with defaults optional.

@@ -5,6 +5,8 @@ import * as React from 'react'
 import { ComponentSelector, Interpolation } from '@emotion/serialize'
 import { PropsOf, Theme } from '@emotion/react'
 
+import type { JSX } from "react";
+
 export {
   ArrayInterpolation,
   CSSObject,

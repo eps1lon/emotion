@@ -1,3 +1,4 @@
+import type * as PropTypes from "prop-types";
 /** @jsx jsx */
 import * as React from 'react'
 import {
@@ -20,7 +21,7 @@ declare module '@emotion/react' {
   }
 }
 
-;<Global styles={[]} />
+<Global styles={[]} />
 ;<Global styles={theme => [theme.primaryColor]} />
 
 declare const getRandomColor: () => string
@@ -187,8 +188,8 @@ const anim1 = keyframes`
       any,
       any
     > | null
-    propTypes?: React.WeakValidationMap<P> | undefined
-    contextTypes?: React.ValidationMap<any> | undefined
+    propTypes?: PropTypes.WeakValidationMap<P> | undefined
+    contextTypes?: PropTypes.ValidationMap<any> | undefined
     defaultProps?: Partial<P> | undefined
     displayName?: string | undefined
   }

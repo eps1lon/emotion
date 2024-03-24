@@ -4,6 +4,8 @@
 import { Theme } from '@emotion/react'
 import { CreateStyled as BaseCreateStyled, CreateStyledComponent } from './base'
 
+import type { JSX } from "react";
+
 export {
   ArrayInterpolation,
   ComponentSelector,

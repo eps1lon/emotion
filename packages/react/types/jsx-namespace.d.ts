@@ -1,4 +1,4 @@
-import 'react'
+import { type JSX } from 'react';
 import { Interpolation } from '@emotion/serialize'
 import { Theme } from '@emotion/react'
 
