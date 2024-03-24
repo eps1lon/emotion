@@ -5766,13 +5766,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.1
-  resolution: "@types/prop-types@npm:15.7.1"
-  checksum: f8b33d7d15a70d0b709bcf5f281c7647ca8aaeaf377431725b4fda4949f2845476652d355eec0cde2a62ba3f7a5fb3194788aebaecc2048eb28db201121c2310
-  languageName: node
-  linkType: hard
-
 "@types/q@npm:^1.5.1":
   version: 1.5.2
   resolution: "@types/q@npm:1.5.2"
@@ -5789,14 +5782,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.0.9":
-  version: 18.0.14
-  resolution: "@types/react@npm:18.0.14"
+"@types/react@npm:types-react@19.0.0-alpha.2":
+  version: 19.0.0-alpha.2
+  resolution: "types-react@npm:19.0.0-alpha.2"
   dependencies:
-    "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 608eb57a383eedc54c79949673e5e8314f6b0c61542bff58721c8c47a18c23e2832e77c656050c2c2c004b62cf25582136c7c56fe1b6263a285c065fae31dbcf
+  checksum: 0de04b12324b9cd08d0bb9489ad244cfc2f9f47f9a04317c5d4bc7f69ef8688d3672370881471729239df45700c26d910d1e9fb9e6d76fabf193063cd08e2c8a
   languageName: node
   linkType: hard
 
@@ -11558,7 +11550,7 @@ __metadata:
     "@testing-library/react": 13.0.0-alpha.5
     "@types/jest": ^27.0.3
     "@types/node": ^12.20.37
-    "@types/react": ^18.0.9
+    "@types/react": "npm:types-react@19.0.0-alpha.2"
     babel-check-duplicated-nodes: ^1.0.0
     babel-eslint: ^10.1.0
     babel-flow-types: ^1.2.3

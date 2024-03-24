@@ -184,7 +184,7 @@
     "@testing-library/react": "13.0.0-alpha.5",
     "@types/jest": "^27.0.3",
     "@types/node": "^12.20.37",
-    "@types/react": "^18.0.9",
+    "@types/react": "npm:types-react@19.0.0-alpha.2",
     "babel-check-duplicated-nodes": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "babel-flow-types": "^1.2.3",
@@ -245,6 +245,8 @@
   },
   "packageManager": "yarn@3.2.3",
   "resolutions": {
+    "@types/react": "npm:types-react@19.0.0-alpha.2",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-alpha.2",
     "jest-snapshot@27.4.5": "patch:jest-snapshot@npm:27.4.5#.yarn/patches/jest-snapshot-npm-27.4.5-6ace6bf68e.patch"
   }
 }
